@@ -1,0 +1,100 @@
+
+body{
+    overflow-x:hidden  ;
+}
+
+
+h1{
+
+    color: rgb(11, 11, 35);
+    font-size: 3em;
+    text-align:left;
+    font-family: sans-serif;
+    
+}
+header{
+    background-color:#ede2ed ;
+    width: 100%;
+    
+
+}
+nav ul{
+    list-style-type:none;
+   
+}
+.parallax{
+    background-image: url("../assets/img/servicio.jpg");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    background-attachment:fixed;
+    height: 80vh ;
+}
+.articulo{
+    width:10em ;
+    background-color:#E1E0DE ;
+    height: 163em;
+    padding: 1em 1.5em;
+    margin: 0.5em 0.7em 1em 0.7em;
+    border: solid black;
+    font-family: sans-serif;
+}
+.label{
+    display: block;
+
+}
+.logo{
+    
+    background-repeat: no-repeat;
+    background-position:right;
+    background-size:0%
+    background-attachment: fixed;
+    height: 2vh ;
+
+}
+
+.footer{
+    width:auto ;
+    background-color:#0c0c0c ;
+    height: 2em;
+    padding:2em;
+    margin: 1em 1em 1em 1em;
+    border: solid black;
+    color: antiquewhite;
+    font-family: sans-serif;
+}
+
+
+ /* .section-modelos{
+     display:flex;
+    flex-flow: row wrap ;
+    justify-content:space-between;
+    align-items: flex-start;
+    margin-right: auto;
+
+}  */
+
+
+/* .grid {
+    display: grid ;
+    grid-template-columns: 100px 100px ;
+    grid-template-rows: 50px 50px 50px ;
+  
+
+} */
+.flexNav {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;  
+}
+.div1 {
+    background-color: darkgrey;
+    display: grid;
+    grid-template-columns: 500px 10px;
+    grid-template-rows: 20% 20% 20%
+    
+    
+}
+.fondo {
+    background-color: rgb(146, 159, 162);
+}
