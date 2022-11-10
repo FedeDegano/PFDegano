@@ -30,14 +30,21 @@ nav ul{
     background-attachment:fixed;
     height: 80vh ;
 }
+.servicios {
+    display: flex;
+    justify-content: center;
+}
 .articulo{
-    width:10em ;
+    display: flex;
+    justify-content: center;
+    width: 1000px; ;
     background-color:#E1E0DE ;
-    height: 163em;
-    padding: 1em 1.5em;
-    margin: 0.5em 0.7em 1em 0.7em;
+    height: 60em;
+    padding: 100px 100px 100px 100px;
+    margin: 1em 1em 1em 1em;
     border: solid black;
     font-family: sans-serif;
+    
 }
 .label{
     display: block;
@@ -87,14 +94,21 @@ nav ul{
     flex-direction: row;
     justify-content: space-between;  
 }
-.div1 {
+/* .div1 {
     background-color: darkgrey;
     display: grid;
-    grid-template-columns: 500px 10px;
+    grid-template-columns: auto;
     grid-template-rows: 20% 20% 20%
     
     
-}
+} */
 .fondo {
     background-color: rgb(146, 159, 162);
+}
+
+/* RESPONSIVE */
+.sectionAutos {
+    display: grid;
+    width: 100%;
+    height: auto;
 }
