@@ -4,24 +4,25 @@ body{
 }
 
 
-h1{
+h1 {
 
-    color: rgb(11, 11, 35);
+    color: rgb(237, 237, 245);
     font-size: 3em;
     text-align:left;
     font-family: sans-serif;
     
 }
+h2 {background-color: #E1E0DE;}
 header{
-    background-color:#ede2ed ;
+    background-color:#491f495a ;
     width: 100%;
-    
-
 }
 nav ul{
-    list-style-type:none;
-   
+    list-style-type:none;  
 }
+
+
+/* .servicios */
 .parallax{
     background-image: url("../assets/img/servicio.jpg");
     background-repeat: no-repeat;
@@ -33,6 +34,7 @@ nav ul{
 .servicios {
     display: flex;
     justify-content: center;
+
 }
 .articulo{
     display: flex;
@@ -42,9 +44,12 @@ nav ul{
     height: 60em;
     padding: 100px 100px 100px 100px;
     margin: 1em 1em 1em 1em;
-    border: solid black;
-    font-family: sans-serif;
+    border: solid rgb(5, 1, 146);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     
+}
+.fondoServicios  {
+    background-color: #0c0c0c;
 }
 .label{
     display: block;
@@ -53,10 +58,10 @@ nav ul{
 .logo{
     
     background-repeat: no-repeat;
-    background-position:right;
-    background-size:0%
+    background-position:right center;
+    background-size:10%
     background-attachment: fixed;
-    height: 2vh ;
+    height: 10vh ;
 
 }
 
@@ -92,20 +97,35 @@ nav ul{
 .flexNav {
     display:flex;
     flex-direction: row;
-    justify-content: space-between;  
+    justify-content: space-evenly;  
+    
 }
-/* .div1 {
+/* modelos */
+.div1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: darkgrey;
     display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: 20% 20% 20%
-    
-    
-} */
+    grid-template-columns:50% 50% ;
+    grid-template-rows: 20% 30% 10% 20%;
+    gap: 10px 20px;   
+}
+
 .fondo {
     background-color: rgb(146, 159, 162);
 }
+/* index */
+.fondoIndex {
+    background-color: #0c0c0c;
+}
 
+/* noticias */
+.fondoNoticias {
+    background-color: #0c0c0c;
+}
+/* contacto */
+.fondoContacto{
+    background:gray
+}
 /* RESPONSIVE */
 .sectionAutos {
     display: grid;
