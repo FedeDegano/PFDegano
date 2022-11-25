@@ -1,0 +1,14 @@
+.servicios {
+  background-color: rgba(246, 44, 44, 0.8431372549);
+  display: flex;
+  justify-content: center;
+}
+.servicios .articulo {
+  display: flex;
+  justify-content: center;
+  width: 100px;
+  background-color: darkorange;
+}
+.servicios .li {
+  background-color: antiquewhite;
+}/*# sourceMappingURL=main.css.map */
