@@ -49,7 +49,11 @@ nav ul{
     background-attachment:fixed;
     height: 80vh ;
 }
-
+@media (min-width: 300px) {
+    .paralax{
+       width: auto;
+    }
+}
 .servicios{
     display: flex;
     justify-content: center;
