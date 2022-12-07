@@ -50,8 +50,8 @@ nav ul{
     height: 80vh ;
 }
 @media (min-width: 300px) {
-    .paralax{
-       width: auto;
+    .parallax{
+    width: auto;
     }
 }
 .servicios{
